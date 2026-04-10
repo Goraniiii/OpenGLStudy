@@ -1,0 +1,156 @@
+^C:\USERS\GONY4\SOURCE\REPOS\OPENGLSTUDY\BUILD\CMAKEFILES\53D0F83322FE121F6F7DED4C10AF7D03\DEP-SPDLOG-MKDIR.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/tmp/dep-spdlog-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog-stamp/Debug/dep-spdlog-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GONY4\SOURCE\REPOS\OPENGLSTUDY\BUILD\CMAKEFILES\53D0F83322FE121F6F7DED4C10AF7D03\DEP-SPDLOG-DOWNLOAD.RULE
+setlocal
+cd C:\Users\gony4\source\repos\OpenGLStudy\build\dep-spdlog-prefix\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/tmp/dep-spdlog-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog-stamp/Debug/dep-spdlog-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GONY4\SOURCE\REPOS\OPENGLSTUDY\BUILD\CMAKEFILES\53D0F83322FE121F6F7DED4C10AF7D03\DEP-SPDLOG-UPDATE.RULE
+setlocal
+cd C:\Users\gony4\source\repos\OpenGLStudy\build\dep-spdlog-prefix\src\dep-spdlog
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog-stamp/Debug/dep-spdlog-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GONY4\SOURCE\REPOS\OPENGLSTUDY\BUILD\CMAKEFILES\53D0F83322FE121F6F7DED4C10AF7D03\DEP-SPDLOG-PATCH.RULE
+setlocal
+cd C:\Users\gony4\source\repos\OpenGLStudy\build\dep-spdlog-prefix\src\dep-spdlog
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog-stamp/Debug/dep-spdlog-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GONY4\SOURCE\REPOS\OPENGLSTUDY\BUILD\CMAKEFILES\53D0F83322FE121F6F7DED4C10AF7D03\DEP-SPDLOG-CONFIGURE.RULE
+setlocal
+cd C:\Users\gony4\source\repos\OpenGLStudy\build\dep-spdlog-prefix\src\dep-spdlog-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX=C:/Users/gony4/source/repos/OpenGLStudy/build/install "-GVisual Studio 17 2022" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Community" -S C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog -B C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog-stamp/Debug/dep-spdlog-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GONY4\SOURCE\REPOS\OPENGLSTUDY\BUILD\CMAKEFILES\53D0F83322FE121F6F7DED4C10AF7D03\DEP-SPDLOG-BUILD.RULE
+setlocal
+cd C:\Users\gony4\source\repos\OpenGLStudy\build\dep-spdlog-prefix\src\dep-spdlog-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --build . --config Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog-stamp/Debug/dep-spdlog-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GONY4\SOURCE\REPOS\OPENGLSTUDY\BUILD\CMAKEFILES\53D0F83322FE121F6F7DED4C10AF7D03\DEP-SPDLOG-INSTALL.RULE
+setlocal
+cd C:\Users\gony4\source\repos\OpenGLStudy\build\dep-spdlog-prefix\src\dep-spdlog-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --build . --config Debug --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog-stamp/Debug/dep-spdlog-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GONY4\SOURCE\REPOS\OPENGLSTUDY\BUILD\CMAKEFILES\53D0F83322FE121F6F7DED4C10AF7D03\DEP-SPDLOG-TEST.RULE
+setlocal
+cd C:\Users\gony4\source\repos\OpenGLStudy\build\dep-spdlog-prefix\src\dep-spdlog-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog-stamp/Debug/dep-spdlog-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GONY4\SOURCE\REPOS\OPENGLSTUDY\BUILD\CMAKEFILES\0AB448105E77E3867BC1D1E99BF548A2\DEP-SPDLOG-COMPLETE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/Debug/dep-spdlog-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog-stamp/Debug/dep-spdlog-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GONY4\SOURCE\REPOS\OPENGLSTUDY\BUILD\CMAKEFILES\948D19AA35FF03668FDCDEED35733E0C\DEP-SPDLOG.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GONY4\SOURCE\REPOS\OPENGLSTUDY\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/gony4/source/repos/OpenGLStudy -BC:/Users/gony4/source/repos/OpenGLStudy/build --check-stamp-file C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

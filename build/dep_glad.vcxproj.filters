@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\gony4\source\repos\OpenGLStudy\build\CMakeFiles\c956c6a551d928056ca544df728cf7cd\dep_glad-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\gony4\source\repos\OpenGLStudy\build\CMakeFiles\c956c6a551d928056ca544df728cf7cd\dep_glad-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\gony4\source\repos\OpenGLStudy\build\CMakeFiles\c956c6a551d928056ca544df728cf7cd\dep_glad-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\gony4\source\repos\OpenGLStudy\build\CMakeFiles\c956c6a551d928056ca544df728cf7cd\dep_glad-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\gony4\source\repos\OpenGLStudy\build\CMakeFiles\c956c6a551d928056ca544df728cf7cd\dep_glad-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\gony4\source\repos\OpenGLStudy\build\CMakeFiles\c956c6a551d928056ca544df728cf7cd\dep_glad-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\gony4\source\repos\OpenGLStudy\build\CMakeFiles\c956c6a551d928056ca544df728cf7cd\dep_glad-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\gony4\source\repos\OpenGLStudy\build\CMakeFiles\c956c6a551d928056ca544df728cf7cd\dep_glad-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\gony4\source\repos\OpenGLStudy\build\CMakeFiles\0ab448105e77e3867bc1d1e99bf548a2\dep_glad-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\gony4\source\repos\OpenGLStudy\build\CMakeFiles\948d19aa35ff03668fdcdeed35733e0c\dep_glad.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\gony4\source\repos\OpenGLStudy\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\gony4\source\repos\OpenGLStudy\build\CMakeFiles\dep_glad" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FD485C5F-BBBA-306E-9D55-3920551FA87A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

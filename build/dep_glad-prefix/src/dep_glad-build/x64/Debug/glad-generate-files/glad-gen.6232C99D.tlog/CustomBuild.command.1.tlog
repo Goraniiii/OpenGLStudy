@@ -1,0 +1,32 @@
+^C:\USERS\GONY4\SOURCE\REPOS\OPENGLSTUDY\BUILD\DEP_GLAD-PREFIX\SRC\DEP_GLAD-BUILD\CMAKEFILES\2B80D5B86EFFC3A8EA1FDE2B9FC256F6\GLAD.C.RULE
+setlocal
+cd C:\Users\gony4\source\repos\OpenGLStudy\build\dep_glad-prefix\src\dep_glad
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\gony4\AppData\Local\Programs\Python\Python313\python.exe -m glad --profile=compatibility --out-path=C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glad-prefix/src/dep_glad-build --api= --generator=c --extensions= --spec=gl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GONY4\SOURCE\REPOS\OPENGLSTUDY\BUILD\DEP_GLAD-PREFIX\SRC\DEP_GLAD-BUILD\CMAKEFILES\5985A83771A7311E1AD4559B5791D306\GLAD-GENERATE-FILES.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GONY4\SOURCE\REPOS\OPENGLSTUDY\BUILD\DEP_GLAD-PREFIX\SRC\DEP_GLAD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/gony4/source/repos/OpenGLStudy/build/dep_glad-prefix/src/dep_glad -BC:/Users/gony4/source/repos/OpenGLStudy/build/dep_glad-prefix/src/dep_glad-build --check-stamp-file C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glad-prefix/src/dep_glad-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

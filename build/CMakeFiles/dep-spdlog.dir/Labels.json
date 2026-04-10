@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/dep-spdlog"
+		},
+		{
+			"file" : "C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/948d19aa35ff03668fdcdeed35733e0c/dep-spdlog.rule"
+		},
+		{
+			"file" : "C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/0ab448105e77e3867bc1d1e99bf548a2/dep-spdlog-complete.rule"
+		},
+		{
+			"file" : "C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/53d0f83322fe121f6f7ded4c10af7d03/dep-spdlog-build.rule"
+		},
+		{
+			"file" : "C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/53d0f83322fe121f6f7ded4c10af7d03/dep-spdlog-configure.rule"
+		},
+		{
+			"file" : "C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/53d0f83322fe121f6f7ded4c10af7d03/dep-spdlog-download.rule"
+		},
+		{
+			"file" : "C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/53d0f83322fe121f6f7ded4c10af7d03/dep-spdlog-install.rule"
+		},
+		{
+			"file" : "C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/53d0f83322fe121f6f7ded4c10af7d03/dep-spdlog-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/53d0f83322fe121f6f7ded4c10af7d03/dep-spdlog-patch.rule"
+		},
+		{
+			"file" : "C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/53d0f83322fe121f6f7ded4c10af7d03/dep-spdlog-test.rule"
+		},
+		{
+			"file" : "C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/53d0f83322fe121f6f7ded4c10af7d03/dep-spdlog-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep-spdlog"
+		],
+		"name" : "dep-spdlog"
+	}
+}

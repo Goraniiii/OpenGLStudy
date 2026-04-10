@@ -1,0 +1,344 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      msbuild 踰꾩쟾 17.14.40+3e7442088(.NET Framework??
+      鍮뚮뱶 ?쒖옉: 2026-04-10 ?ㅽ썑 8:11:02
+      
+      1 ?몃뱶??"C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdC\\CompilerIdC.vcxproj" ?꾨줈?앺듃(湲곕낯 ?\xc2\x80???낅땲??
+      PrepareForBuild:
+        "Debug\\" ?붾젆?곕━瑜?留뚮뱾怨??덉뒿?덈떎.
+        援ъ“??異쒕젰???ъ슜?????덉뒿?덈떎. 而댄뙆?쇰윭 吏꾨떒???쒖떇?\xc2\x80 ?ㅻ쪟 怨꾩링 援ъ“瑜?諛섏쁺?⑸땲?? ?먯꽭???댁슜?\xc2\x80 https://aka.ms/cpp/structured-output??李몄“?섏꽭??
+        "Debug\\CompilerIdC.tlog\\" ?붾젆?곕━瑜?留뚮뱾怨??덉뒿?덈떎.
+      InitializeBuildStatus:
+        "AlwaysCreate"??媛\xc2\x80) 吏\xc2\x80?뺣릺?덇린 ?뚮Ц??"Debug\\CompilerIdC.tlog\\unsuccessfulbuild"??瑜? 留뚮뱾怨??덉뒿?덈떎.
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"???곌껐(touching)?섍퀬 ?덉뒿?덈떎.
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\gony4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe'?\xc2\x80(?? ?대? ?먮뒗 ?몃? 紐낅졊, ?ㅽ뻾?????덈뒗 ?꾨줈洹몃옩, ?먮뒗
+        諛곗튂 ?뚯씪???꾨떃?덈떎.
+        "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\gony4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" 紐낅졊??醫낅즺?섏뿀?듬땲??肄붾뱶: 9009).
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\gony4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" ?뚯씪????젣?섍퀬 ?덉뒿?덈떎.
+        "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate"???곌껐(touching)?섍퀬 ?덉뒿?덈떎.
+      "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdC\\CompilerIdC.vcxproj" ?꾨줈?앺듃瑜?鍮뚮뱶?덉뒿?덈떎(湲곕낯 ?\xc2\x80??.
+      
+      鍮뚮뱶?덉뒿?덈떎.
+          寃쎄퀬 0媛?
+          ?ㅻ쪟 0媛?
+      
+      寃쎄낵 ?쒓컙: 00:00:00.52
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/3.31.6-msvc6/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-cww3t8"
+      binary: "C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-cww3t8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-cww3t8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_be645.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        msbuild 踰꾩쟾 17.14.40+3e7442088(.NET Framework??
+        鍮뚮뱶 ?쒖옉: 2026-04-10 ?ㅽ썑 8:11:03
+        
+        1 ?몃뱶??"C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-cww3t8\\cmTC_be645.vcxproj" ?꾨줈?앺듃(湲곕낯 ?\xc2\x80???낅땲??
+        PrepareForBuild:
+          "cmTC_be645.dir\\Debug\\" ?붾젆?곕━瑜?留뚮뱾怨??덉뒿?덈떎.
+          援ъ“??異쒕젰???ъ슜?????덉뒿?덈떎. 而댄뙆?쇰윭 吏꾨떒???쒖떇?\xc2\x80 ?ㅻ쪟 怨꾩링 援ъ“瑜?諛섏쁺?⑸땲?? ?먯꽭???댁슜?\xc2\x80 https://aka.ms/cpp/structured-output??李몄“?섏꽭??
+          "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-cww3t8\\Debug\\" ?붾젆?곕━瑜?留뚮뱾怨??덉뒿?덈떎.
+          "cmTC_be645.dir\\Debug\\cmTC_be645.tlog\\" ?붾젆?곕━瑜?留뚮뱾怨??덉뒿?덈떎.
+        InitializeBuildStatus:
+          "AlwaysCreate"??媛\xc2\x80) 吏\xc2\x80?뺣릺?덇린 ?뚮Ц??"cmTC_be645.dir\\Debug\\cmTC_be645.tlog\\unsuccessfulbuild"??瑜? 留뚮뱾怨??덉뒿?덈떎.
+          "cmTC_be645.dir\\Debug\\cmTC_be645.tlog\\unsuccessfulbuild"???곌껐(touching)?섍퀬 ?덉뒿?덈떎.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be645.dir\\Debug\\\\" /Fd"cmTC_be645.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ 理쒖쟻??而댄뙆?쇰윭 踰꾩쟾 19.44.35224(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be645.dir\\Debug\\\\" /Fd"cmTC_be645.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-cww3t8\\Debug\\cmTC_be645.exe" /INCREMENTAL /ILK:"cmTC_be645.dir\\Debug\\cmTC_be645.ilk" /NOLOGO /LIBPATH:"C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-cww3t8/Debug/cmTC_be645.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-cww3t8/Debug/cmTC_be645.lib" /MACHINE:X64  /machine:x64 cmTC_be645.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_be645.vcxproj -> C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-cww3t8\\Debug\\cmTC_be645.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\gony4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-cww3t8\\Debug\\cmTC_be645.exe" "C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_be645.dir\\Debug\\cmTC_be645.tlog\\cmTC_be645.write.1u.tlog" "cmTC_be645.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe'?\xc2\x80(?? ?대? ?먮뒗 ?몃? 紐낅졊, ?ㅽ뻾?????덈뒗 ?꾨줈洹몃옩, ?먮뒗
+          諛곗튂 ?뚯씪???꾨떃?덈떎.
+          "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\gony4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-cww3t8\\Debug\\cmTC_be645.exe" "C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_be645.dir\\Debug\\cmTC_be645.tlog\\cmTC_be645.write.1u.tlog" "cmTC_be645.dir\\Debug\\vcpkg.applocal.log"" 紐낅졊??醫낅즺?섏뿀?듬땲??肄붾뱶: 9009).
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\gony4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-cww3t8\\Debug\\cmTC_be645.exe" "C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_be645.dir\\Debug\\cmTC_be645.tlog\\cmTC_be645.write.1u.tlog" "cmTC_be645.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          "cmTC_be645.dir\\Debug\\cmTC_be645.tlog\\unsuccessfulbuild" ?뚯씪????젣?섍퀬 ?덉뒿?덈떎.
+          "cmTC_be645.dir\\Debug\\cmTC_be645.tlog\\cmTC_be645.lastbuildstate"???곌껐(touching)?섍퀬 ?덉뒿?덈떎.
+        "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-cww3t8\\cmTC_be645.vcxproj" ?꾨줈?앺듃瑜?鍮뚮뱶?덉뒿?덈떎(湲곕낯 ?\xc2\x80??.
+        
+        鍮뚮뱶?덉뒿?덈떎.
+            寃쎄퀬 0媛?
+            ?ㅻ쪟 0媛?
+        
+        寃쎄낵 ?쒓컙: 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35224.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:58 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-vr3wss"
+      binary: "C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-vr3wss"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-vr3wss'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e75b4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        msbuild 踰꾩쟾 17.14.40+3e7442088(.NET Framework??
+        鍮뚮뱶 ?쒖옉: 2026-04-10 ?ㅽ썑 8:11:03
+        
+        1 ?몃뱶??"C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-vr3wss\\cmTC_e75b4.vcxproj" ?꾨줈?앺듃(湲곕낯 ?\xc2\x80???낅땲??
+        PrepareForBuild:
+          "cmTC_e75b4.dir\\Debug\\" ?붾젆?곕━瑜?留뚮뱾怨??덉뒿?덈떎.
+          援ъ“??異쒕젰???ъ슜?????덉뒿?덈떎. 而댄뙆?쇰윭 吏꾨떒???쒖떇?\xc2\x80 ?ㅻ쪟 怨꾩링 援ъ“瑜?諛섏쁺?⑸땲?? ?먯꽭???댁슜?\xc2\x80 https://aka.ms/cpp/structured-output??李몄“?섏꽭??
+          "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-vr3wss\\Debug\\" ?붾젆?곕━瑜?留뚮뱾怨??덉뒿?덈떎.
+          "cmTC_e75b4.dir\\Debug\\cmTC_e75b4.tlog\\" ?붾젆?곕━瑜?留뚮뱾怨??덉뒿?덈떎.
+        InitializeBuildStatus:
+          "AlwaysCreate"??媛\xc2\x80) 吏\xc2\x80?뺣릺?덇린 ?뚮Ц??"cmTC_e75b4.dir\\Debug\\cmTC_e75b4.tlog\\unsuccessfulbuild"??瑜? 留뚮뱾怨??덉뒿?덈떎.
+          "cmTC_e75b4.dir\\Debug\\cmTC_e75b4.tlog\\unsuccessfulbuild"???곌껐(touching)?섍퀬 ?덉뒿?덈떎.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e75b4.dir\\Debug\\\\" /Fd"cmTC_e75b4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-vr3wss\\src.c"
+          Microsoft (R) C/C++ 理쒖쟻??而댄뙆?쇰윭 踰꾩쟾 19.44.35224(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e75b4.dir\\Debug\\\\" /Fd"cmTC_e75b4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-vr3wss\\src.c"
+          src.c
+        C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-vr3wss\\src.c(1,10): error C1083: ?ы븿 ?뚯씪???????놁뒿?덈떎. 'pthread.h': No such file or directory [C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-vr3wss\\cmTC_e75b4.vcxproj]
+        "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-vr3wss\\cmTC_e75b4.vcxproj" ?꾨줈?앺듃瑜?鍮뚮뱶?덉뒿?덈떎(湲곕낯 ?\xc2\x80??. - ?ㅽ뙣
+        
+        鍮뚮뱶?섏? 紐삵뻽?듬땲??
+        
+        "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-vr3wss\\cmTC_e75b4.vcxproj"(湲곕낯 ?\xc2\x80??(1)->
+        (ClCompile ?\xc2\x80?? -> 
+          C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-vr3wss\\src.c(1,10): error C1083: ?ы븿 ?뚯씪???????놁뒿?덈떎. 'pthread.h': No such file or directory [C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-vr3wss\\cmTC_e75b4.vcxproj]
+        
+            寃쎄퀬 0媛?
+            ?ㅻ쪟 1媛?
+        
+        寃쎄낵 ?쒓컙: 00:00:00.18
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:58 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-kvuy62"
+      binary: "C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-kvuy62"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-kvuy62'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3561a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        msbuild 踰꾩쟾 17.14.40+3e7442088(.NET Framework??
+        鍮뚮뱶 ?쒖옉: 2026-04-10 ?ㅽ썑 8:11:04
+        
+        1 ?몃뱶??"C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-kvuy62\\cmTC_3561a.vcxproj" ?꾨줈?앺듃(湲곕낯 ?\xc2\x80???낅땲??
+        PrepareForBuild:
+          "cmTC_3561a.dir\\Debug\\" ?붾젆?곕━瑜?留뚮뱾怨??덉뒿?덈떎.
+          援ъ“??異쒕젰???ъ슜?????덉뒿?덈떎. 而댄뙆?쇰윭 吏꾨떒???쒖떇?\xc2\x80 ?ㅻ쪟 怨꾩링 援ъ“瑜?諛섏쁺?⑸땲?? ?먯꽭???댁슜?\xc2\x80 https://aka.ms/cpp/structured-output??李몄“?섏꽭??
+          "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-kvuy62\\Debug\\" ?붾젆?곕━瑜?留뚮뱾怨??덉뒿?덈떎.
+          "cmTC_3561a.dir\\Debug\\cmTC_3561a.tlog\\" ?붾젆?곕━瑜?留뚮뱾怨??덉뒿?덈떎.
+        InitializeBuildStatus:
+          "AlwaysCreate"??媛\xc2\x80) 吏\xc2\x80?뺣릺?덇린 ?뚮Ц??"cmTC_3561a.dir\\Debug\\cmTC_3561a.tlog\\unsuccessfulbuild"??瑜? 留뚮뱾怨??덉뒿?덈떎.
+          "cmTC_3561a.dir\\Debug\\cmTC_3561a.tlog\\unsuccessfulbuild"???곌껐(touching)?섍퀬 ?덉뒿?덈떎.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3561a.dir\\Debug\\\\" /Fd"cmTC_3561a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-kvuy62\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ 理쒖쟻??而댄뙆?쇰윭 踰꾩쟾 19.44.35224(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3561a.dir\\Debug\\\\" /Fd"cmTC_3561a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-kvuy62\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-kvuy62\\Debug\\cmTC_3561a.exe" /INCREMENTAL /ILK:"cmTC_3561a.dir\\Debug\\cmTC_3561a.ilk" /NOLOGO /LIBPATH:"C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-kvuy62/Debug/cmTC_3561a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-kvuy62/Debug/cmTC_3561a.lib" /MACHINE:X64  /machine:x64 cmTC_3561a.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 'pthreads.lib' ?뚯씪???????놁뒿?덈떎. [C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-kvuy62\\cmTC_3561a.vcxproj]
+        "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-kvuy62\\cmTC_3561a.vcxproj" ?꾨줈?앺듃瑜?鍮뚮뱶?덉뒿?덈떎(湲곕낯 ?\xc2\x80??. - ?ㅽ뙣
+        
+        鍮뚮뱶?섏? 紐삵뻽?듬땲??
+        
+        "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-kvuy62\\cmTC_3561a.vcxproj"(湲곕낯 ?\xc2\x80??(1)->
+        (Link ?\xc2\x80?? -> 
+          LINK : fatal error LNK1104: 'pthreads.lib' ?뚯씪???????놁뒿?덈떎. [C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-kvuy62\\cmTC_3561a.vcxproj]
+        
+            寃쎄퀬 0媛?
+            ?ㅻ쪟 1媛?
+        
+        寃쎄낵 ?쒓컙: 00:00:00.23
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:58 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-hbjb1n"
+      binary: "C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-hbjb1n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-hbjb1n'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3faff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        msbuild 踰꾩쟾 17.14.40+3e7442088(.NET Framework??
+        鍮뚮뱶 ?쒖옉: 2026-04-10 ?ㅽ썑 8:11:04
+        
+        1 ?몃뱶??"C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-hbjb1n\\cmTC_3faff.vcxproj" ?꾨줈?앺듃(湲곕낯 ?\xc2\x80???낅땲??
+        PrepareForBuild:
+          "cmTC_3faff.dir\\Debug\\" ?붾젆?곕━瑜?留뚮뱾怨??덉뒿?덈떎.
+          援ъ“??異쒕젰???ъ슜?????덉뒿?덈떎. 而댄뙆?쇰윭 吏꾨떒???쒖떇?\xc2\x80 ?ㅻ쪟 怨꾩링 援ъ“瑜?諛섏쁺?⑸땲?? ?먯꽭???댁슜?\xc2\x80 https://aka.ms/cpp/structured-output??李몄“?섏꽭??
+          "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-hbjb1n\\Debug\\" ?붾젆?곕━瑜?留뚮뱾怨??덉뒿?덈떎.
+          "cmTC_3faff.dir\\Debug\\cmTC_3faff.tlog\\" ?붾젆?곕━瑜?留뚮뱾怨??덉뒿?덈떎.
+        InitializeBuildStatus:
+          "AlwaysCreate"??媛\xc2\x80) 吏\xc2\x80?뺣릺?덇린 ?뚮Ц??"cmTC_3faff.dir\\Debug\\cmTC_3faff.tlog\\unsuccessfulbuild"??瑜? 留뚮뱾怨??덉뒿?덈떎.
+          "cmTC_3faff.dir\\Debug\\cmTC_3faff.tlog\\unsuccessfulbuild"???곌껐(touching)?섍퀬 ?덉뒿?덈떎.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3faff.dir\\Debug\\\\" /Fd"cmTC_3faff.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-hbjb1n\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ 理쒖쟻??而댄뙆?쇰윭 踰꾩쟾 19.44.35224(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3faff.dir\\Debug\\\\" /Fd"cmTC_3faff.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-hbjb1n\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-hbjb1n\\Debug\\cmTC_3faff.exe" /INCREMENTAL /ILK:"cmTC_3faff.dir\\Debug\\cmTC_3faff.ilk" /NOLOGO /LIBPATH:"C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\gony4\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-hbjb1n/Debug/cmTC_3faff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gony4/source/repos/OpenGLStudy/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-hbjb1n/Debug/cmTC_3faff.lib" /MACHINE:X64  /machine:x64 cmTC_3faff.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 'pthread.lib' ?뚯씪???????놁뒿?덈떎. [C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-hbjb1n\\cmTC_3faff.vcxproj]
+        "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-hbjb1n\\cmTC_3faff.vcxproj" ?꾨줈?앺듃瑜?鍮뚮뱶?덉뒿?덈떎(湲곕낯 ?\xc2\x80??. - ?ㅽ뙣
+        
+        鍮뚮뱶?섏? 紐삵뻽?듬땲??
+        
+        "C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-hbjb1n\\cmTC_3faff.vcxproj"(湲곕낯 ?\xc2\x80??(1)->
+        (Link ?\xc2\x80?? -> 
+          LINK : fatal error LNK1104: 'pthread.lib' ?뚯씪???????놁뒿?덈떎. [C:\\Users\\gony4\\source\\repos\\OpenGLStudy\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-hbjb1n\\cmTC_3faff.vcxproj]
+        
+            寃쎄퀬 0媛?
+            ?ㅻ쪟 1媛?
+        
+        寃쎄낵 ?쒓컙: 00:00:00.23
+        
+      exitCode: 1
+...
