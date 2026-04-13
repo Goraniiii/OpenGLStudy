@@ -337,6 +337,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\gony4\source\repos\OpenGLStudy\src\main.cpp" />
+    <ClCompile Include="C:\Users\gony4\source\repos\OpenGLStudy\src\common.cpp" />
+    <ClInclude Include="C:\Users\gony4\source\repos\OpenGLStudy\src\common.h" />
+    <ClCompile Include="C:\Users\gony4\source\repos\OpenGLStudy\src\shader.cpp" />
+    <ClInclude Include="C:\Users\gony4\source\repos\OpenGLStudy\src\shader.h" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

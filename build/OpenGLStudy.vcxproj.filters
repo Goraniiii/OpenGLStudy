@@ -4,11 +4,28 @@
     <ClCompile Include="C:\Users\gony4\source\repos\OpenGLStudy\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\gony4\source\repos\OpenGLStudy\src\common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gony4\source\repos\OpenGLStudy\src\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\gony4\source\repos\OpenGLStudy\src\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\gony4\source\repos\OpenGLStudy\src\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\gony4\source\repos\OpenGLStudy\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BB61A6BA-8C44-3062-A521-CB1C2C72DEA2}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{A3C54BA8-8CB9-3DDD-A411-DEE5C8DE1A8D}</UniqueIdentifier>
     </Filter>
