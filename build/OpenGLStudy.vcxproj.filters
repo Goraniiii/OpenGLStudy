@@ -10,12 +10,36 @@
     <ClCompile Include="C:\Users\gony4\source\repos\OpenGLStudy\src\shader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\gony4\source\repos\OpenGLStudy\src\program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gony4\source\repos\OpenGLStudy\src\context.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gony4\source\repos\OpenGLStudy\src\buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gony4\source\repos\OpenGLStudy\src\vertex_layout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\gony4\source\repos\OpenGLStudy\src\common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\gony4\source\repos\OpenGLStudy\src\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\gony4\source\repos\OpenGLStudy\src\program.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\gony4\source\repos\OpenGLStudy\src\context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\gony4\source\repos\OpenGLStudy\src\buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\gony4\source\repos\OpenGLStudy\src\vertex_layout.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

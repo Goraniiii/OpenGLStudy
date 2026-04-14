@@ -341,6 +341,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\gony4\source\repos\OpenGLStudy\src\common.h" />
     <ClCompile Include="C:\Users\gony4\source\repos\OpenGLStudy\src\shader.cpp" />
     <ClInclude Include="C:\Users\gony4\source\repos\OpenGLStudy\src\shader.h" />
+    <ClCompile Include="C:\Users\gony4\source\repos\OpenGLStudy\src\program.cpp" />
+    <ClInclude Include="C:\Users\gony4\source\repos\OpenGLStudy\src\program.h" />
+    <ClCompile Include="C:\Users\gony4\source\repos\OpenGLStudy\src\context.cpp" />
+    <ClInclude Include="C:\Users\gony4\source\repos\OpenGLStudy\src\context.h" />
+    <ClCompile Include="C:\Users\gony4\source\repos\OpenGLStudy\src\buffer.cpp" />
+    <ClInclude Include="C:\Users\gony4\source\repos\OpenGLStudy\src\buffer.h" />
+    <ClCompile Include="C:\Users\gony4\source\repos\OpenGLStudy\src\vertex_layout.cpp" />
+    <ClInclude Include="C:\Users\gony4\source\repos\OpenGLStudy\src\vertex_layout.h" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

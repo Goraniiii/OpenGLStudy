@@ -1,3 +1,7 @@
 C:\Users\gony4\source\repos\OpenGLStudy\src\main.cpp;C:\Users\gony4\source\repos\OpenGLStudy\build\OpenGLStudy.dir\Debug\main.obj
 C:\Users\gony4\source\repos\OpenGLStudy\src\common.cpp;C:\Users\gony4\source\repos\OpenGLStudy\build\OpenGLStudy.dir\Debug\common.obj
 C:\Users\gony4\source\repos\OpenGLStudy\src\shader.cpp;C:\Users\gony4\source\repos\OpenGLStudy\build\OpenGLStudy.dir\Debug\shader.obj
+C:\Users\gony4\source\repos\OpenGLStudy\src\program.cpp;C:\Users\gony4\source\repos\OpenGLStudy\build\OpenGLStudy.dir\Debug\program.obj
+C:\Users\gony4\source\repos\OpenGLStudy\src\context.cpp;C:\Users\gony4\source\repos\OpenGLStudy\build\OpenGLStudy.dir\Debug\context.obj
+C:\Users\gony4\source\repos\OpenGLStudy\src\buffer.cpp;C:\Users\gony4\source\repos\OpenGLStudy\build\OpenGLStudy.dir\Debug\buffer.obj
+C:\Users\gony4\source\repos\OpenGLStudy\src\vertex_layout.cpp;C:\Users\gony4\source\repos\OpenGLStudy\build\OpenGLStudy.dir\Debug\vertex_layout.obj
