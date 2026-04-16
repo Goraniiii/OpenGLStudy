@@ -2,5 +2,6 @@ C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/OpenGLStudy.dir
 C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/dep-spdlog.dir
 C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/dep_glfw.dir
 C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/dep_glad.dir
+C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/dep_stb.dir
 C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/gony4/source/repos/OpenGLStudy/build/CMakeFiles/ZERO_CHECK.dir
