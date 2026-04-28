@@ -1,8 +1,0 @@
-C:/Users/gony4/source/repos/OpenGLStudy/build/install/include/GLFW/glfw3.h
-C:/Users/gony4/source/repos/OpenGLStudy/build/install/include/GLFW/glfw3native.h
-C:/Users/gony4/source/repos/OpenGLStudy/build/install/lib/cmake/glfw3/glfw3Config.cmake
-C:/Users/gony4/source/repos/OpenGLStudy/build/install/lib/cmake/glfw3/glfw3ConfigVersion.cmake
-C:/Users/gony4/source/repos/OpenGLStudy/build/install/lib/cmake/glfw3/glfw3Targets.cmake
-C:/Users/gony4/source/repos/OpenGLStudy/build/install/lib/cmake/glfw3/glfw3Targets-debug.cmake
-C:/Users/gony4/source/repos/OpenGLStudy/build/install/lib/pkgconfig/glfw3.pc
-C:/Users/gony4/source/repos/OpenGLStudy/build/install/lib/glfw3.lib

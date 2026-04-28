@@ -1,9 +1,0 @@
-C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/spdlog.dir
-C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/PACKAGE.dir
-C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/INSTALL.dir
-C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/ALL_BUILD.dir
-C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog-build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog-build/example/CMakeFiles/example.dir
-C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog-build/example/CMakeFiles/PACKAGE.dir
-C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog-build/example/CMakeFiles/INSTALL.dir
-C:/Users/gony4/source/repos/OpenGLStudy/build/dep-spdlog-prefix/src/dep-spdlog-build/example/CMakeFiles/ALL_BUILD.dir
