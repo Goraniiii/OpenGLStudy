@@ -6,17 +6,10 @@
     "configurations": [
     {
       "name": "C++ Debug",
-      "type": "cppdbg",
+      "type": "cppvsdbg",
       "request": "launch",
       "program": "${workspaceFolder}/build/Debug/OpenGLStudy.exe",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "${workspaceFolder}",
-      "environment": [],
-      "externalConsole": true,
-      "MIMode": "gdb",
-      "miDebuggerPath": "C:/msys64/usr/bin/gdb.exe",
-      "preLaunchTask": "build"
+      "cwd": "${workspaceFolder}"
     }
   ]
 }

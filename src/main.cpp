@@ -9,6 +9,10 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
+#define WINDOW_WIDTH 640
+#define WINDOW_HEIGHT 480
+#define WINDOW_NAME "OpenGL Study"
+
 void OnFramebufferSizeChange(GLFWwindow* window, int width, int height) {
     SPDLOG_INFO("framebuffer size changed: ({} x {})", width, height);
     glViewport(0, 0, width, height);
